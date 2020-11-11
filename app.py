@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "test string"
-    
+    return render_template('index.html')
+
 #if any errors they should pop up on the page
 if __name__ == "__main__":
     app.run(debug=True)
