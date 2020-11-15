@@ -4,3 +4,6 @@ Mainly Python and flask, a little bit of CSS, a little bit of JavaScript and HTM
 activate venv
 - install pip3
 - pip install flask flask-sqlalchemy
+
+## CI/CD Pipeline
+Will run automated testing to check for errors.
