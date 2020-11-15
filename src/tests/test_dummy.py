@@ -1,8 +1,8 @@
 #Test for unittest/ci/c
-
-import unittest
+import os
+import re
 from main import add
-
+import unittest
 
 class dummytest(unittest.TestCase):
     def test_add(self):

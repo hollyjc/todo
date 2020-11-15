@@ -21,7 +21,7 @@ jobs:
       - name: Run Tests
         run: |
           cd src
-          python -m unittest discover tests/ -v
+          python -m unittest discover src/tests/
       - name: Data Type Check
         run: |
           cd src
