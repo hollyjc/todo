@@ -1,7 +1,7 @@
 #Test for unittest/ci/c
 import os
 import re
-from main import add
+from src.main import add
 import unittest
 
 class dummytest(unittest.TestCase):
