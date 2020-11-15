@@ -1,7 +1,7 @@
 #Test for unittest/ci/c
 
 import unittest
-from main import add_fun
+from main import add
 
 
 class dummytest(unittest.TestCase):

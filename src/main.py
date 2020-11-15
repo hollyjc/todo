@@ -3,6 +3,6 @@
 import unittest
 
 
-def add_fun(a, b):
+def add(a, b):
     #add function is a dummy test
     return (a + b)
